@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "iifa-economics-auto-tests-v-0-3"
+version = "0.1.0"
+description = ""
+authors = ["dpodolny <dpodolny@nntc.pro>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.1"
+allure-pytest = "^2.12.0"
+selenium = "^4.8.0"
+webdriver-manager = "^3.8.5"
+keyboard = "^0.13.5"
+psutil = "^5.9.4"
+
+[tool.pytest.ini_options]
+markers = [
+    "sandbox",
+    "calculacion_constructor",
+    "reports",
+    "guide",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
