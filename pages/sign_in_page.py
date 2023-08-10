@@ -14,7 +14,7 @@ class SignInPage(BasePage):
 
     # Функция для прохождения авторизации. Сама проверяет, корректно ли отработала
     def keycloak_authorization(self):
-        username, password = 'dev', 'qwe123R!'
+        username, password = 'uname', 'upass'
         self.send_keys_to_visible_element(self.USERNAME, username)
         self.send_keys_to_visible_element(self.PASSWORD, password)
         self.click_on_visible_element(self.SIGN_IN_BUTTON)

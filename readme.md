@@ -2,7 +2,7 @@
 
 ## Перед началом работы
 ### Python
-1. Установи **Python 3.11.1** (https://www.python.org/downloads/release/python-3111/)
+1. Установи **Python 3.11.1+** (https://www.python.org/downloads/release/python-3111/)
 
 
 ### Poetry
