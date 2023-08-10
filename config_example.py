@@ -3,11 +3,11 @@ from os import path
 # СТРОКИ, КОТОРЫЕ ЛУЧШЕ НЕ ТРОГАТЬ
 
 # Адресная книга
-mskdev = 'http://mskdev.nntc.pro/economics/'
-gpn = 'http://gpn.mskdev.nntc.pro/economics/'
-generated_dev = "http://generated.dev.nntc.pro/economics/"
-genrestest = 'http://genrestest.nntc.pro/economics/'
-demorospan = 'http://demo.rospan.iifa.ru/economics/'
+mskdev = 'stand1'
+gpn = 'stand5'
+generated_dev = "stand4"
+genrestest = 'stand3'
+demorospan = 'stand2'
 
 # Функциональное
 main_dir = path.dirname(__file__)

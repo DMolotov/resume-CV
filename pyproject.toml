@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "iifa-economics-auto-tests-v-0-3"
+name = "iifa-economics-auto-tests-v-0-5"
 version = "0.1.0"
 description = ""
-authors = ["dpodolny <dpodolny@nntc.pro>"]
+authors = ["DZdornikov <dzdornikov@nntc.pro>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
